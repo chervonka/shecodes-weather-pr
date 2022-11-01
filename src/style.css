@@ -153,5 +153,6 @@ html {
   display: block;
   text-align: left;
   color: rgb(57, 57, 57);
-  background-color: #fefde3;
+  margin: 0px auto;
+  max-width: 600px;
 }
