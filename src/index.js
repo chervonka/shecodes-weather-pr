@@ -56,6 +56,9 @@ function weatherInfo(response) {
     response.data.weather[0].main;
   document.querySelector("#more-description").innerHTML =
     response.data.weather[0].description;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
 }
 //
 function search(event) {

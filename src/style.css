@@ -120,7 +120,8 @@ html {
   padding-top: 30px;
 }
 
-.moreDescript {
+.moreDescript,
+.wind-s {
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #39393964;
